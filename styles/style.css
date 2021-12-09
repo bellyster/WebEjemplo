@@ -142,4 +142,15 @@ footer{
     color: #1DB954;
 }
   
-  
+@media screen and (max-width: 600px) {
+    .video-responsive {
+      position: relative;
+      width: 100%;
+      max-width: 100%;
+    }
+    iframe{
+        max-width: 100%;
+        height: auto;
+    }
+  }
+
